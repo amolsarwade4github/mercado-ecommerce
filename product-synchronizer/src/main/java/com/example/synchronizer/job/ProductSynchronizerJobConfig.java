@@ -21,6 +21,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.client.RestTemplate;
 
@@ -69,7 +70,8 @@ public class ProductSynchronizerJobConfig {
         log.info("Initialing product data importer job reader");
         return new FlatFileItemReaderBuilder<ProductInput>()
                 .name("productItemReader")
-                .resource(new FileSystemResource(productDataFilePath))
+                //.resource(new FileSystemResource(productDataFilePath)) //better to read data fiel from file system or ftp server
+                .resource(new ClassPathResource("products-data.csv"))
                 .linesToSkip(1)
                 .delimited()
                 .names(FIELD_NAMES)

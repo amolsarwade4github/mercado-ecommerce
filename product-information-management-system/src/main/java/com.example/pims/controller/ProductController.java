@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  * @author Amol.Sarwade
  */
 @RestController
-@RequestMapping(value = "/api/products")
+@RequestMapping(value = "/api/v1/products")
 public class ProductController {
 
     @Autowired
