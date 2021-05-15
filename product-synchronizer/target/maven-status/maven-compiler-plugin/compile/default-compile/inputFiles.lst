@@ -1,0 +1,16 @@
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\processor\ProductDataProcessor.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\helper\ApiResponseHelper.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\dto\ProductInput.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\constants\ResponseStatus.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\repository\AuditRepository.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\job\ProductSynchronizerJobConfig.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\service\AuditService.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\service\AuditServiceImpl.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\model\RequestAudit.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\helper\AuditRequestHelper.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\scheduler\ProductSynchronizerJobScheduler.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\writer\ProductWriter.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\dto\Product.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\listener\ProductSynchronizerJobCompletionNotificationListener.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\SynchronizerApplication.java
+D:\workspace\dubai-store\mercado-ecommerce\product-synchronizer\src\main\java\com\example\synchronizer\dto\ApiResponse.java

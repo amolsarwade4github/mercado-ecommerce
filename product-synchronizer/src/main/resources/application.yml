@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  batch:
+    job:
+      enabled: false
+
+product:
+  url:
+    bulk:
+      upload: http://localhost:8081/api/products/bulk
+
+  data:
+    file:
+      path: /data/products-data.csv
