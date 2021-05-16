@@ -16,11 +16,11 @@ public class ProductSynchronizerJobCompletionNotificationListener extends JobExe
 
     @Override
     public void afterJob(JobExecution jobExecution) {
-        log.info("ProductSynchronizerJobCompletionNotificationListener :: COMPLETED");
+        log.info("Product upload job  :: COMPLETED");
     }
 
     @Override
     public void beforeJob(JobExecution jobExecution) {
-        log.info("ProductSynchronizerJobCompletionNotificationListener :: STARTED");
+        log.info("Product upload job :: STARTED");
     }
 }

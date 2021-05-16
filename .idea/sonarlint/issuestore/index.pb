@@ -1,0 +1,23 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+á
+Wproduct-information-management-system/src/main/java/com.example/pims/model/Product.java,6\f\6f2f5ef2f80e420a3d83c6cf3fdfc7d653e56b8a
+Å
+Qproduct-synchronizer/src/main/java/com/example/synchronizer/dto/ProductInput.java,e\0\e0a6b6709c06dc63b5ae4cfddd315082f78e9d0d
+F
+data/products-data.csv,1\1\1143da811aa10da64ebaa180b4efdb95fc11f5fc
+Ö
+Uproduct-synchronizer/src/main/java/com/example/synchronizer/writer/ProductWriter.java,7\1\710c52053e6aa7ffd6257a0e52e2c5b489f5979a
+ë
+aproduct-synchronizer/src/main/java/com/example/synchronizer/job/ProductSynchronizerJobConfig.java,6\a\6a3ca566341b27a183c60ebe1a64ba3b9e27ab54
+`
+0product-information-management-system/Dockerfile,2\f\2f3e78560091244f8e15be9db933b6a3a3042292
+ö
+jproduct-synchronizer/src/main/java/com/example/synchronizer/scheduler/ProductSynchronizerJobScheduler.java,a\5\a55ae1c71a517a3bf854709588e5b1f7844f7e65
+O
+product-synchronizer/Dockerfile,8\3\833926fba9664057132a12c831e73450ba5ad079
+ñ
+fproduct-information-management-system/src/main/java/com.example/pims/controller/ProductController.java,8\4\8428a03a55435f6eb88bc71a509b61eb57b2423e
+è
+_product-synchronizer/src/main/java/com/example/synchronizer/processor/ProductDataProcessor.java,2\9\2924ee2bbf5f80de121c676f1d1ae284f88ed6c4
