@@ -70,8 +70,8 @@ public class ProductSynchronizerJobConfig {
         log.info("Initialing product data importer job reader");
         return new FlatFileItemReaderBuilder<ProductInput>()
                 .name("productItemReader")
-                //.resource(new FileSystemResource(productDataFilePath)) //better to read data fiel from file system or ftp server
-                .resource(new ClassPathResource("products-data.csv"))
+                .resource(new FileSystemResource(productDataFilePath)) //better to read data fiel from file system or ftp server
+                //.resource(new ClassPathResource("products-data.csv"))
                 .linesToSkip(1)
                 .delimited()
                 .names(FIELD_NAMES)

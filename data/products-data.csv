@@ -1,4 +1,4 @@
-SKU, title, description, price, quantity
+sku, title, description, price, quantity
 0001, "Sapiens: A Brief History of Humankind", "A beautiful book about history of humans", 100, 10
 0002, "Learning Python", "A beautiful book about Python", 20, 100
 0003, "Learning Python", "B beautiful book about Python", 20, 100
@@ -21,3 +21,10 @@ SKU, title, description, price, quantity
 0020, "Learning Python", "S beautiful book about Python", 20, 100
 0021, "Learning Python", "T beautiful book about Python", 20, 100
 0022, "Learning Python", "U beautiful book about Python", 20, 100
+0023, "Learning Python", "T beautiful book about Python", 20, 100
+0024, "Learning Python", "U beautiful book about Python", 20, 100
+0025, "Learning Python", "T beautiful book about Python", 20, 100
+0026, "Learning Python", "U beautiful book about Python", 20, 100
+0027, "Learning Python", "U beautiful book about Python", 20, 100
+0028, "Learning Python", "U beautiful book about Python", 20, 100
+0028, "Learning Python", "U beautiful book about Python", 20, 100

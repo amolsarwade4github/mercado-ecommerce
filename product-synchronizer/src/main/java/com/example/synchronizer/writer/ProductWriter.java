@@ -41,10 +41,15 @@ public class ProductWriter implements ItemWriter<Product> {
 
     @Override
     public void write(List<? extends Product> products) throws Exception {
+
         if (CollectionUtils.isEmpty(products)) {
             log.info("No products found to write");
             return;
         }
+
+        log.info("Reading number of products:" + products.size());
+
+        log.info("Bulk upload url:" + productBulkUploadUrl);
 
         HttpEntity<List<Product>> httpEntity = new HttpEntity(products, getHeaders());
         final String requestId = UUID.randomUUID().toString();
@@ -58,6 +63,7 @@ public class ProductWriter implements ItemWriter<Product> {
                 auditRequestHelper.update(requestId, objectMapper.writeValueAsString(apiResponse), ResponseStatus.FAILED);
             }
         } catch (Exception ex) {
+            log.error("Exception in write", ex);
             ApiResponse failureResponse = ApiResponseHelper.getFailureResponse(ex);
             auditRequestHelper.update(requestId, objectMapper.writeValueAsString(failureResponse), ResponseStatus.FAILED);
             log.error(failureResponse.toString());

@@ -1,0 +1,24 @@
+version: "3.7"
+services:
+  product-info:
+    build:
+      dockerfile: Dockerfile
+      context: ./product-information-management-system
+    ports:
+      - "8080:8080"
+    networks:
+      - mercado-network
+  product-sync:
+    build:
+      dockerfile: Dockerfile
+      context: ./product-synchronizer
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./data:/app/data
+    networks:
+      - mercado-network
+    depends_on:
+      - product-info
+networks:
+  mercado-network: {}
