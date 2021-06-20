@@ -27,4 +27,8 @@ sku, title, description, price, quantity
 0026, "Learning Python", "U beautiful book about Python", 20, 100
 0027, "Learning Python", "U beautiful book about Python", 20, 100
 0028, "Learning Python", "U beautiful book about Python", 20, 100
-0028, "Learning Python", "U beautiful book about Python", 20, 100
+0029, "Learning Python", "U beautiful book about Python", 20, 100
+0030, "Learning Python", "U beautiful book about Python", 20, 100
+0031, "Learning Python", "U beautiful book about Python", 20, 100
+0032, "Learning Docker", "U beautiful book about Docker", 20, 300
+0033, "Learning kubenates", "U beautiful book about Kubenates", 20, 400

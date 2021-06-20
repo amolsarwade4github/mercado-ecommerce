@@ -2,9 +2,19 @@ server:
   port: 8081
 
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://mysql-db:3306/inventory-db?createDatabaseIfNotExist=true
+    username: root
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
   batch:
     job:
       enabled: false
+    initialize-schema: always
+
 
 product:
   url:
@@ -20,3 +30,5 @@ product:
     job:
       execution:
         frequency: 0 0/1 * * * ?
+
+
